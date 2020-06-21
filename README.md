@@ -9,6 +9,8 @@ _you_ might be.
 
 And you will get, having configured the `twilio` settings, a text message with the results of your big compute.
 
+Otherwise, `cmm` behaves as `tee`: it spits out exactly what it gets in.
+
 
 ## Getting started
 
@@ -25,9 +27,11 @@ After filling the fields you want to use, you're good to go!
 
 Right now, `cmm` supports the following:
 
--[X] Twilio Text Messages
--[X] Log Files (of course)
--[ ] Telegram Bots (WIP)
+- [X] Twilio Text Messages
+
+- [X] Log Files (of course)
+
+- [ ] Telegram Bots (WIP)
 
 You can open up an issue with the label "NCommunicator" to suggest a new way of talking to you.
 
