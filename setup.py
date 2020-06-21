@@ -1,4 +1,5 @@
 import pathlib
+from callmemaybe import VERSION as CMM_VERSION
 from setuptools import setup, find_packages
 
 # Thanks to https://realpython.com/pypi-publish-python-package/
@@ -9,7 +10,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="callmemaybe",
-    version="1.0.1",
+    version=CMM_VERSION,
     description="A CLI tool to talk to you",
     long_description=README,
     long_description_content_type="text/markdown",
