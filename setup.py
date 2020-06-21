@@ -9,7 +9,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="callmemaybe",
-    version="1.0.0",
+    version="1.0.1",
     description="A CLI tool to talk to you",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -17,7 +17,7 @@ setup(
     author="Samuel Yvon",
     license="MIT",
     classifiers=[
-        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3",
     ],
     include_package_data=True,
     install_requires=[],

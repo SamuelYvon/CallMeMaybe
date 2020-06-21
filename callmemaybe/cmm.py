@@ -57,7 +57,12 @@ def open_config():
         print(f"Config file not found at {e.filename}. Aborting.")
         exit(-1)
 
-    return json.loads(content)
+    try:
+        d = json.loads(content)
+    except json.JSONDecodeError:
+        d = {}
+
+    return d
 
 
 def main(argv=None):
